@@ -1,23 +1,81 @@
-body{
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/houndstooth-pattern.png);
-    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+* {
+	box-sizing: border-box;
 }
 
+body {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/gravel.png");
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777777;
+    margin: 0;
+}
+/* top of the page */
 header {
     background: #fff;
-    padding: 20px;
     width: 100%;
-}
-
-.container{
-
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: #cccccc solid 2px;
+    float: left;
+    margin-bottom: 20px;
 }
 
 .name{
-
+    background-color: #4aaaa5;
+    float: left;
+    display: block;
+    color: #fff;
+    padding: 40px;
+    font-size: 30px; 
+    font-weight: bold; 
+}
+nav {
+    float: left;
+    right: 20px;
 }
 
-.content {
+ul {
+    list-style: none;
+    float: right;
+}
 
+li { 
+    float: left;
+	color: #999;
+	margin-left: 20px;
+	line-height: 22px;
+	padding-left: 20px;
+	border-left: 1px solid #ddd;
+}
+
+/* main part of the page, info, etc. */
+.content {
+    background-color: #fff;
+    clear: both;
+    overflow: auto;
+    width: 960px;
+    position: relative;
+    align-content: center;
+}
+
+.bio-pic {
+    width: 200px;
+    height: 200px; 
+    float: left;
+}
+
+h1 {
+    color: #4aaaa5;
+    border-bottom: solid 1px #ccc;
+    font-weight: bold;
+}
+
+/* bottom of the page */
+footer {
+    clear: both;
+    background-color: #666;
+    padding: 20px;
+    color: #eee;
+    border-top: #4aaaa5;
+    text-align: center;
 }
 
